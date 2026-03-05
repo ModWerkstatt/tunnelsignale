@@ -1,173 +1,183 @@
 function data()
-trackHeightOffset = -0.2
-return {
-	boundingInfo = {
-		bbMax = { 0.8, 4, 7.5, },
-		bbMin = { -1.1, -4, -1, },
-	},
-	collider = {
-		params = { },
-		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, trackHeightOffset, 1, },
-		type = "MESH",
-	},
-	lods = {
-		{
-			node = {
-				children = {
-					--- Licht Links	---	
-					{						
-						materials = { "railroad/signals/tunnel/tunnel_signal.mtl", },
-						mesh = "railroad/signals/tunnel/Hv_licht_lod0.msh",						
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.1, 0.23, 0.64, 1, },
-					},
-					{						
-						materials = { "railroad/signals/tunnel/tunnel_signal.mtl", },
-						mesh = "railroad/signals/tunnel/Hv_licht_lod0.msh",						
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.1, 0.23, 0.32, 1, },
-					},
-					{						
-						materials = { "railroad/signals/tunnel/tunnel_signal.mtl", },
-						mesh = "railroad/signals/tunnel/Hv_licht_lod0.msh",						
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.1, 0.23, 0, 1, },
-					},
-					--- Licht Rechts ---							
-					{						
-						materials = { "railroad/signals/tunnel/tunnel_signal.mtl", },
-						mesh = "railroad/signals/tunnel/Hv_licht_lod0.msh",						
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.1, -0.17, 0.64, 1, },
-					},									
-					{						
-						materials = { "railroad/signals/tunnel/tunnel_signal.mtl", },
-						mesh = "railroad/signals/tunnel/Hv_licht_lod0.msh",						
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.1, -0.17, 0.32, 1, },
-					},						
-					{						
-						materials = { "railroad/signals/tunnel/tunnel_signal.mtl", },
-						mesh = "railroad/signals/tunnel/Hv_display_lod0.msh",						
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.1, -0.17, 0, 1, },
-					},					
-                    {						
-						materials = { "railroad/signals/tunnel/tunnel_signal.mtl", },
-						mesh = "railroad/signals/tunnel/tunnel_basis_hv_lod0.msh",						
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.1, 0.02, 0.25, 1, },
-					},					
-                    {						
-						materials = { "railroad/signals/tunnel/tunnel_signal.mtl", },
-						mesh = "railroad/signals/tunnel/tunnel_halter_lod0.msh",						
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.03, 0, 0.1, 1, },
-					},
-                    {						
-						materials = { "railroad/signals/tunnel/tunnel_signal.mtl", },
-						mesh = "railroad/signals/tunnel/tunnel_mastschild_lod0.msh",						
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.32, 0.48, 1, },
-					},	
-					--- PZB ---
-					{						
-						materials = { "ks_signale/misc/ks_signal_misc.mtl", },
-						mesh = "ks_signale/misc/ks_pzb_1000.msh",					
-						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1.15, -3.78, 1, },
-					},	
-				},
-				name = "RootNode",
-				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -2.1, trackHeightOffset+4, 1, },
+return { 
+		boundingInfo = { 
+			bbMax = { 0.800000011920928955078125, 4, 7.5, },
+			bbMin = { -1.10000002384185791015625, -4, -1, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 0.9500000476837158203125, 4, 4.25, },
 			},
-			static = false,
-			visibleFrom = 0,
-			visibleTo = 150,
-		},		
-		{
-			node = {
-				children = {
-					{						
-						animations = {
-							green = {
-								params = {
-									id = "kaleut_ks_signale_1/switch_back_ks_optik.ani",
-								},
-								type = "FILE_REF",
-							},
-							red = {
-								params = {
-									id = "kaleut_ks_signale_1/switch_forward_ks_optik.ani",
-								},
-								type = "FILE_REF",
-							},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.1500000059604644775390625, 0, 3.0499999523162841796875, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "res/models/material/railroad/signals/tunnel/tunnel_signal.mtl", },
+							mesh = "res/models/mesh/railroad/signals/tunnel/Hv_licht_lod0.msh",
+							name = "Hv_licht_lod0_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.100000001490116119384765625, 0.23000000417232513427734375, 0.63999998569488525390625, 1, },
 						},
-						materials = { "railroad/HV_51/licht.mtl", },
-						mesh = "railroad/signals/tunnel/licht_Hv_rot_lod0.msh",						
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.06, 0.22, 0.645, 1, },
-					},	
-					{						
-						animations = {
-							green = {
-								params = {
-									id = "kaleut_ks_signale_1/switch_back_ks_optik.ani",
-								},
-								type = "FILE_REF",
-							},
-							red = {
-								params = {
-									id = "kaleut_ks_signale_1/switch_forward_ks_optik.ani",
-								},
-								type = "FILE_REF",
-							},
+						{ 
+							materials = { "res/models/material/railroad/signals/tunnel/tunnel_signal.mtl", },
+							mesh = "res/models/mesh/railroad/signals/tunnel/Hv_licht_lod0.msh",
+							name = "Hv_licht_lod0_2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.100000001490116119384765625, 0.23000000417232513427734375, 0.319999992847442626953125, 1, },
 						},
-						materials = { "railroad/HV_51/licht.mtl", },
-						mesh = "railroad/signals/tunnel/licht_Hv_rot_lod0.msh",						
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.06, -0.182, 0.645, 1, },
-					},	
-					{						
-						animations = {
-							green = {
-								params = {
-									id = "kaleut_ks_signale_1/switch_forward_ks_optik.ani",
-								},
-								type = "FILE_REF",
-							},
-							red = {
-								params = {
-									id = "kaleut_ks_signale_1/switch_back_ks_optik.ani",
-								},
-								type = "FILE_REF",
-							},
+						{ 
+							materials = { "res/models/material/railroad/signals/tunnel/tunnel_signal.mtl", },
+							mesh = "res/models/mesh/railroad/signals/tunnel/Hv_licht_lod0.msh",
+							name = "Hv_licht_lod0_3",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.100000001490116119384765625, 0.23000000417232513427734375, 0, 1, },
 						},
-						materials = { "railroad/HV_51/licht.mtl", },
-						mesh = "railroad/signals/tunnel/licht_Hv_gruen_lod0.msh",						
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.06, 0.22, 0.325, 1, },
-					},	
+						{ 
+							materials = { "res/models/material/railroad/signals/tunnel/tunnel_signal.mtl", },
+							mesh = "res/models/mesh/railroad/signals/tunnel/Hv_licht_lod0.msh",
+							name = "Hv_licht_lod0_4",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.100000001490116119384765625, -0.17000000178813934326171875, 0.63999998569488525390625, 1, },
+						},
+						{ 
+							materials = { "res/models/material/railroad/signals/tunnel/tunnel_signal.mtl", },
+							mesh = "res/models/mesh/railroad/signals/tunnel/Hv_licht_lod0.msh",
+							name = "Hv_licht_lod0_5",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.100000001490116119384765625, -0.17000000178813934326171875, 0.319999992847442626953125, 1, },
+						},
+						{ 
+							materials = { "res/models/material/railroad/signals/tunnel/tunnel_signal.mtl", },
+							mesh = "res/models/mesh/railroad/signals/tunnel/Hv_display_lod0.msh",
+							name = "Hv_display_lod0_6",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.100000001490116119384765625, -0.17000000178813934326171875, 0, 1, },
+						},
+						{ 
+							materials = { "res/models/material/railroad/signals/tunnel/tunnel_signal.mtl", },
+							mesh = "res/models/mesh/railroad/signals/tunnel/tunnel_basis_hv_lod0.msh",
+							name = "tunnel_basis_hv_lod0_7",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.100000001490116119384765625, 0.0199999995529651641845703125, 0.25, 1, },
+						},
+						{ 
+							materials = { "res/models/material/railroad/signals/tunnel/tunnel_signal.mtl", },
+							mesh = "res/models/mesh/railroad/signals/tunnel/tunnel_halter_lod0.msh",
+							name = "tunnel_halter_lod0_8",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.02999999932944774627685546875, 0, 0.100000001490116119384765625, 1, },
+						},
+						{ 
+							materials = { "res/models/material/railroad/signals/tunnel/tunnel_signal.mtl", },
+							mesh = "res/models/mesh/railroad/signals/tunnel/tunnel_mastschild_lod0.msh",
+							name = "tunnel_mastschild_lod0_9",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.319999992847442626953125, 0.4799999892711639404296875, 1, },
+						},
+						{ 
+							materials = { "res/models/material/ks_signale/misc/ks_signal_misc.mtl", },
+							mesh = "res/models/mesh/ks_signale/misc/ks_pzb_1000.msh",
+							name = "ks_pzb_1000_10",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1.14999997615814208984375, -3.7799999713897705078125, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -2.099999904632568359375, 3.7999999523162841796875, 1, },
 				},
-				name = "RootNode",
-				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -2.1, trackHeightOffset+4, 1, },
+				visibleFrom = 0,
+				visibleTo = 150,
 			},
-			static = false,
-			visibleFrom = 0,
-			visibleTo = 200,
+			{ 
+				node = { 
+					children = {
+						{ 
+							animations = { 
+								green = { 
+									params = { 
+										id = "res/models/animation/kaleut_ks_signale_1/switch_back_ks_optik.ani",
+									},
+									type = "FILE_REF",
+								},
+								red = { 
+									params = { 
+										id = "res/models/animation/kaleut_ks_signale_1/switch_forward_ks_optik.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "res/models/material/railroad/HV_51/licht.mtl", },
+							mesh = "res/models/mesh/railroad/signals/tunnel/licht_Hv_rot_lod0.msh",
+							name = "licht_Hv_rot_lod0_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.0599999986588954925537109375, 0.2199999988079071044921875, 0.644999980926513671875, 1, },
+						},
+						{ 
+							animations = { 
+								green = { 
+									params = { 
+										id = "res/models/animation/kaleut_ks_signale_1/switch_back_ks_optik.ani",
+									},
+									type = "FILE_REF",
+								},
+								red = { 
+									params = { 
+										id = "res/models/animation/kaleut_ks_signale_1/switch_forward_ks_optik.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "res/models/material/railroad/HV_51/licht.mtl", },
+							mesh = "res/models/mesh/railroad/signals/tunnel/licht_Hv_rot_lod0.msh",
+							name = "licht_Hv_rot_lod0_2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.0599999986588954925537109375, -0.18199999630451202392578125, 0.644999980926513671875, 1, },
+						},
+						{ 
+							animations = { 
+								green = { 
+									params = { 
+										id = "res/models/animation/kaleut_ks_signale_1/switch_forward_ks_optik.ani",
+									},
+									type = "FILE_REF",
+								},
+								red = { 
+									params = { 
+										id = "res/models/animation/kaleut_ks_signale_1/switch_back_ks_optik.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "res/models/material/railroad/HV_51/licht.mtl", },
+							mesh = "res/models/mesh/railroad/signals/tunnel/licht_Hv_gruen_lod0.msh",
+							name = "licht_Hv_gruen_lod0_3",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.0599999986588954925537109375, 0.2199999988079071044921875, 0.324999988079071044921875, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -2.099999904632568359375, 3.7999999523162841796875, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 200,
+			},
 		},
-	},
-	metadata = {
-		availability = {
-			yearFrom = 1978,
-			yearTo = 1998,
+		metadata = { 
+			availability = { 
+				yearFrom = 1978,
+				yearTo = 1998,
+			},
+			category = { 
+				categories = { "Hv_Tunnelsignal", },
+			},
+			cost = { 
+				price = 1500,
+			},
+			description = { 
+				name = _("Hv-Tsig hp0/hp1"),
+			},
+			signal = { 
+				soundevent = "",
+				type = "PATH_SIGNAL",
+			},
+			tunnelsignal = { 
+				hv = true,
+				ks = false,
+				zs2Zs2v = false,
+				zs3Zs3v = false,
+			},
 		},
-		cost = {
-			price = 1500,
-		},
-		description = {
-			name = _("Hv-Tsig hp0/hp1"),
-		},
-		category = {
-			categories = { "Hv_Tunnelsignal", },
-		},
-		signal = {
-			type = "PATH_SIGNAL",
-		},
-		tunnelsignal = {
-			ks = false,
-			hv = true,
-			zs3Zs3v = false,
-			zs2Zs2v = false,
-		},
-	},
-	version = 1,
-}
+		version = 1,
+	}
 end
