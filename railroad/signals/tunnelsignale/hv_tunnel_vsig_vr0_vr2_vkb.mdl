@@ -187,11 +187,27 @@ return {
 			description = { 
 				name = _("hv-Tvsig Vr0/Vr2 vkb"),
 			},
+			menuCategory = {
+				categories = {
+					{
+						category = "rail_tools",
+						order = 1000,
+					},
+				},
+			},
 			signal = { 
 				soundevent = "",
 				type = "WAYPOINT",
 			},
-			tunnelsignal = { 
+			tunnelmenuCategory = {
+				categories = {
+					{
+						category = "rail_tools",
+						order = 1000,
+					},
+				},
+			},
+			signal = { 
 				hv = true,
 				ks = false,
 				zs2Zs2v = false,

@@ -175,11 +175,27 @@ return {
 			description = { 
 				name = _("Ks-Tsig Ks1 Zs3: 60 Zs3v: 40 links"),
 			},
+			menuCategory = {
+				categories = {
+					{
+						category = "rail_tools",
+						order = 1000,
+					},
+				},
+			},
 			signal = { 
 				soundevent = "",
 				type = "PATH_SIGNAL",
 			},
-			tunnelsignal = { 
+			tunnelmenuCategory = {
+				categories = {
+					{
+						category = "rail_tools",
+						order = 1000,
+					},
+				},
+			},
+			signal = { 
 				hv = false,
 				ks = true,
 				zs2Zs2v = false,

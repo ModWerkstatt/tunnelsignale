@@ -101,11 +101,27 @@ return {
 			description = { 
 				name = _("Ks-Tvsig Ks2"),
 			},
+			menuCategory = {
+				categories = {
+					{
+						category = "rail_tools",
+						order = 1000,
+					},
+				},
+			},
 			signal = { 
 				soundevent = "",
 				type = "WAYPOINT",
 			},
-			tunnelsignal = { 
+			tunnelmenuCategory = {
+				categories = {
+					{
+						category = "rail_tools",
+						order = 1000,
+					},
+				},
+			},
+			signal = { 
 				hv = false,
 				ks = true,
 				waypoint = true,

@@ -229,11 +229,27 @@ return {
 			description = { 
 				name = _("hv-Tsig vr0/vr2 zs3v: 60 w links "),
 			},
+			menuCategory = {
+				categories = {
+					{
+						category = "rail_tools",
+						order = 1000,
+					},
+				},
+			},
 			signal = { 
 				soundevent = "",
 				type = "PATH_SIGNAL",
 			},
-			tunnelsignal = { 
+			tunnelmenuCategory = {
+				categories = {
+					{
+						category = "rail_tools",
+						order = 1000,
+					},
+				},
+			},
+			signal = { 
 				hv = true,
 				ks = false,
 				zs2Zs2v = false,

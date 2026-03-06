@@ -179,11 +179,27 @@ return {
 			description = { 
 				name = _("Ks-Tvsig Ks1 Blinkend Zs3v: 80 Zs2v: p"),
 			},
+			menuCategory = {
+				categories = {
+					{
+						category = "rail_tools",
+						order = 1000,
+					},
+				},
+			},
 			signal = { 
 				soundevent = "",
 				type = "WAYPOINT",
 			},
-			tunnelsignal = { 
+			tunnelmenuCategory = {
+				categories = {
+					{
+						category = "rail_tools",
+						order = 1000,
+					},
+				},
+			},
+			signal = { 
 				hv = false,
 				ks = true,
 				zs2Zs2v = true,

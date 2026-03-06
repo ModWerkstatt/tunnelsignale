@@ -327,11 +327,27 @@ return {
 			description = { 
 				name = _("hv-Tsig hp0/hp2 zs3: 60 vr2 vkb "),
 			},
+			menuCategory = {
+				categories = {
+					{
+						category = "rail_tools",
+						order = 1000,
+					},
+				},
+			},
 			signal = { 
 				soundevent = "",
 				type = "PATH_SIGNAL",
 			},
-			tunnelsignal = { 
+			tunnelmenuCategory = {
+				categories = {
+					{
+						category = "rail_tools",
+						order = 1000,
+					},
+				},
+			},
+			signal = { 
 				hv = true,
 				ks = false,
 				zs2Zs2v = false,
