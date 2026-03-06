@@ -1,0 +1,170 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 0.800000011920928955078125, 4, 7.5, },
+			bbMin = { -1.10000002384185791015625, -4, -1, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 0.9500000476837158203125, 4, 4.25, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.1500000059604644775390625, 0, 3.0499999523162841796875, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/tunnel_signal.mtl", },
+							mesh = "msh/tunnel_signal_lod0.msh",
+							name = "tunnel_signal_lod0_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.039999999105930328369140625, 0, 1, },
+						},
+						{ 
+							materials = { "mat/tunnel_signal.mtl", },
+							mesh = "msh/tunnel_halter_lod0.msh",
+							name = "tunnel_halter_lod0_2",
+							transf = { 1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/tunnel_signal.mtl", },
+							mesh = "msh/tunnel_ne2_lod0.msh",
+							name = "tunnel_ne2_lod0_3",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.00999999977648258209228515625, -0.0500000007450580596923828125, -0.7400000095367431640625, 1, },
+						},
+						{ 
+							materials = { "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/mat/ks_signal_misc.mtl", },
+							mesh = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/msh/ks_pzb_1000.msh",
+							name = "ks_pzb_1000_4",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -3.0499999523162841796875, -3.7999999523162841796875, 1, },
+						},
+						{ 
+							materials = { "mat/tunnel_signal.mtl", },
+							mesh = "msh/tunnel_halter_lod0.msh",
+							name = "tunnel_halter_lod0_5",
+							transf = { 1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, -0.730000019073486328125, 1, },
+						},
+						{ 
+							materials = { "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/mat/ks_signal_misc.mtl", "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/mat/ks_zsa_scheibe.mtl", },
+							mesh = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/msh/ks_zsa.msh",
+							name = "ks_zsa_6",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.100000001490116119384765625, 0.0500000007450580596923828125, -1, 1, },
+						},
+						{ 
+							animations = { 
+								green = { 
+									params = { 
+										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/ks_signale/switch_back_ks_optik.ani",
+									},
+									type = "FILE_REF",
+								},
+								red = { 
+									params = { 
+										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/ks_signale/switch_forward_ks_optik.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/mat/licht.mtl", },
+							mesh = "msh/tunnel_licht_gelb_lod0.msh",
+							name = "tunnel_licht_gelb_lod0_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.01400000043213367462158203125, -0.070000000298023223876953125, -0.17000000178813934326171875, 1, },
+						},
+						{ 
+							animations = { 
+								idle_green = { 
+									params = { 
+										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/ks_signale/idle_ks_optik.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/mat/licht.mtl", },
+							mesh = "msh/tunnel_licht_gruen_lod0.msh",
+							name = "tunnel_licht_gruen_lod0_2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.01400000043213367462158203125, 0.0599999986588954925537109375, -0.0041999998502433300018310546875, 1, },
+						},
+						{ 
+							animations = { 
+								idle_green = { 
+									params = { 
+										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/ks_signale/idle_ks_zsa.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "/ks_signale/zusatzsignal/mat/ks_zs3v_10.mtl", },
+							mesh = "/ks_signale/optiken/msh/ks_zsa_display.msh",
+							name = "ks_zsa_display_3",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.00999999977648258209228515625, 0.0500000007450580596923828125, -0.75, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 2, 3.7999999523162841796875, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 200,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/mat/ks_signal_misc.mtl", "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/mat/ks_zsa_scheibe.mtl", },
+							mesh = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/msh/ks_zsa.msh",
+							name = "ks_zsa_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.100000001490116119384765625, 0.0500000007450580596923828125, -1, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -2.099999904632568359375, -0.20000000298023223876953125, 1, },
+				},
+				visibleFrom = 150,
+				visibleTo = 300,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1998,
+				yearTo = 0,
+			},
+			category = { 
+				categories = { "Ks_Tunnelvorsignal", },
+			},
+			cost = { 
+				price = 1500,
+			},
+			description = { 
+				name = _("Ks-Tvsig Ks1 Blinkend Zs3v: 100"),
+			},
+			menuCategory = {
+				categories = {
+					{
+						category = "rail_tools",
+						order = 1000,
+					},
+				},
+			},
+			signal = { 
+				soundevent = "",
+				type = "WAYPOINT",
+			},
+			tunnelmenuCategory = {
+				categories = {
+					{
+						category = "rail_tools",
+						order = 1000,
+					},
+				},
+			},
+			signal = { 
+				hv = false,
+				ks = true,
+				waypoint = true,
+				zs2Zs2v = false,
+				zs3Zs3v = true,
+			},
+		},
+		version = 2,
+	}
+end
