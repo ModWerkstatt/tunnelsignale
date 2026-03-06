@@ -1,10 +1,22 @@
 {
+    "name": "Tunnel signals",
+    "summary": "Signals which are mounted to the walls in tunnels.",
+    "description": "Hv and Ks tunnel signals for placement in the tunnel, available between 1978 and 1998 (Hv) and from 1998 (Ks). The signal components are required.",
+    "localization" : {
+        "de": {
+            "name": "Tram T 27 / TM 33 - 36 (Berlin)",
+            "summary": "Signale, die in Tunnel an der Wand befestigt werden.",
+            "description": "Tunnelsignale der Bauformen Hv und Ks zur Platzierung im Tunnel, verfügbar zwischen 1978 und 1998 (Hv) und ab 1998 (Ks). Es werden die Signalkomponenten benötigt."
+        }
+    },
     "authors": [
         {
-            "name": "",
+            "name": "ModWerkstatt",
             "role": "CREATOR"
         }
     ],
-    "name": "",
-    "url": ""
+    "tags": [
+        "Tram"
+    ],
+    "url": "https://modwerkstatt.com/downloads/tpf3/tunnelsignale-hv-ks"
 }

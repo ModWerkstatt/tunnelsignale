@@ -1,0 +1,23 @@
+{
+	"en": {
+
+        "Ks-Tunnelsignalsystem": "Ks tunnel signal system",
+        "Hv-Tunnelsignalsystem": "Hv tunnel signal system",
+        "Zs3/Zs3v": "Zs3/Zs3v",
+        "Zs2/Zs2v": "Zs2/Zs2v",
+        "Zs6/Zp9": "Zs6/Zp9",
+        "Wegpunkte": "Waypoints"
+
+	},
+	"de": {
+
+        "Ks-Tunnelsignalsystem": "Ks-Tunnelsignalsystem",
+        "Hv-Tunnelsignalsystem": "Hv-Tunnelsignalsystem",
+        "Zs3/Zs3v": "Zs3/Zs3v",
+        "Zs2/Zs2v": "Zs2/Zs2v",
+        "Zs6/Zp9": "Zs6/Zp9",
+        "Wegpunkte": "Wegpunkte"
+
+	}
+}
+end
