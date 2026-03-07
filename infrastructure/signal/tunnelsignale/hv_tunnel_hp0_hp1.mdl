@@ -154,13 +154,77 @@ return {
 			cost = { 
 				price = 1500,
 			},
-			description = { 
+			description = {
+				attributes = { 
+					cost = { 45000, -1, },
+					maintenanceCost = { 7500, -1, },
+					noise = { 0, -1, },
+					pollution = { 0, -1, },
+				},
 				name = _("hv-Tsig hp0/hp1"),
+			},
+			lightSourceList = { 
+				lights = {
+					{ 
+						angleMax = 30,
+						angleMin = 10,
+						color = { 0.88, 0.014, 0.014, },
+						fadeOutStart = 700,
+						invertMask = true,
+						lightId = "",
+						mask = 0,
+						meshId = "licht_hv_rot_lod0_1",
+						mode = "LIGHT",
+						radius = 8,
+						strength = 3,
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.2199999988079071044921875, -2.63000011444091796875, 6.5, 1, },
+						type = "SPOT",
+						visibleFrom = -1,
+						visibleTo = 800,
+					},
+					{ 
+						angleMax = 30,
+						angleMin = 10,
+						color = { 0.88, 0.014, 0.014, },
+						fadeOutStart = 700,
+						invertMask = true,
+						lightId = "",
+						mask = 0,
+						meshId = "licht_hv_rot_lod0_2",
+						mode = "LIGHT",
+						radius = 8,
+						strength = 3,
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.2199999988079071044921875, -2.63000011444091796875, 6.5, 1, },
+						type = "SPOT",
+						visibleFrom = -1,
+						visibleTo = 800,
+					},
+					{ 
+						angleMax = 30,
+						angleMin = 10,
+						color = { 0, 0.474509775638580322265625, 0, },
+						fadeOutStart = 700,
+						fromTime = 18,
+						invertMask = true,
+						lightId = "",
+						mask = 0,
+						meshId = "licht_hv_gruen_lod0_3",
+						mode = "LIGHT",
+						radius = 5,
+						strength = 3,
+						toTime = 7,
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.25, -2.3599998950958251953125, 5.480000019073486328125, 1, },
+						type = "SPOT",
+						visibleFrom = -1,
+						visibleTo = 800,
+					},
+				},
 			},
 			menuCategory = {
 				categories = {
 					{
 						category = "rail_tools",
+						filterCategories = {"tunnelsignale"},
 						order = 1000,
 					},
 				},
@@ -173,11 +237,12 @@ return {
 				categories = {
 					{
 						category = "rail_tools",
+						filterCategories = {"tunnelsignale"},
 						order = 1000,
 					},
 				},
 			},
-			signal = { 
+			signal_filter = { 
 				hv = true,
 				ks = false,
 				zs2Zs2v = false,

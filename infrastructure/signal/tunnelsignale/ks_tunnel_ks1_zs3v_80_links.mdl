@@ -140,13 +140,20 @@ return {
 			cost = { 
 				price = 1500,
 			},
-			description = { 
+			description = {
+				attributes = { 
+					cost = { 45000, -1, },
+					maintenanceCost = { 7500, -1, },
+					noise = { 0, -1, },
+					pollution = { 0, -1, },
+				},
 				name = _("Ks-Tsig Ks1 Zs3v: 80 links"),
 			},
 			menuCategory = {
 				categories = {
 					{
 						category = "rail_tools",
+						filterCategories = {"tunnelsignale"},
 						order = 1000,
 					},
 				},
@@ -159,6 +166,7 @@ return {
 				categories = {
 					{
 						category = "rail_tools",
+						filterCategories = {"tunnelsignale"},
 						order = 1000,
 					},
 				},
