@@ -19,61 +19,61 @@ return {
 							materials = { "mat/tunnel_signal.mtl", },
 							mesh = "msh/hv_licht_lod0.msh",
 							name = "hv_licht_lod0_1",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.100000001490116119384765625, 0.23000000417232513427734375, 0.63999998569488525390625, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.1, 0.23, 0.64, 1, },
 						},
 						{ 
 							materials = { "mat/tunnel_signal.mtl", },
 							mesh = "msh/hv_licht_lod0.msh",
 							name = "hv_licht_lod0_2",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.100000001490116119384765625, 0.23000000417232513427734375, 0.319999992847442626953125, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.1, 0.23, 0.32, 1, },
 						},
 						{ 
 							materials = { "mat/tunnel_signal.mtl", },
 							mesh = "msh/hv_licht_lod0.msh",
 							name = "hv_licht_lod0_3",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.100000001490116119384765625, 0.23000000417232513427734375, 0, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.1, 0.23, 0, 1, },
 						},
 						{ 
 							materials = { "mat/tunnel_signal.mtl", },
 							mesh = "msh/hv_licht_lod0.msh",
 							name = "hv_licht_lod0_4",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.100000001490116119384765625, -0.17000000178813934326171875, 0.63999998569488525390625, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.1, -0.17, 0.64, 1, },
 						},
 						{ 
 							materials = { "mat/tunnel_signal.mtl", },
 							mesh = "msh/hv_licht_lod0.msh",
 							name = "hv_licht_lod0_5",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.100000001490116119384765625, -0.17000000178813934326171875, 0.319999992847442626953125, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.1, -0.17, 0.32, 1, },
 						},
 						{ 
 							materials = { "mat/tunnel_signal.mtl", },
 							mesh = "msh/hv_display_lod0.msh",
 							name = "hv_display_lod0_6",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.100000001490116119384765625, -0.17000000178813934326171875, 0, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.1, -0.17, 0, 1, },
 						},
 						{ 
 							materials = { "mat/tunnel_signal.mtl", },
 							mesh = "msh/tunnel_basis_hv_lod0.msh",
 							name = "tunnel_basis_hv_lod0_7",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.100000001490116119384765625, 0.0199999995529651641845703125, 0.25, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.1, 0.02, 0.25, 1, },
 						},
 						{ 
 							materials = { "mat/tunnel_signal.mtl", },
 							mesh = "msh/tunnel_halter_lod0.msh",
 							name = "tunnel_halter_lod0_8",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.02999999932944774627685546875, 0, 0.100000001490116119384765625, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.03, 0, 0.1, 1, },
 						},
 						{ 
 							materials = { "mat/tunnel_signal.mtl", },
 							mesh = "msh/tunnel_mastschild_lod0.msh",
 							name = "tunnel_mastschild_lod0_9",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.319999992847442626953125, 0.4799999892711639404296875, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.32, 0.48, 1, },
 						},
 						{ 
 							materials = { "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/mat/ks_signal_misc.mtl", },
 							mesh = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/msh/ks_pzb_1000.msh",
 							name = "ks_pzb_1000_10",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1.14999997615814208984375, -3.7799999713897705078125, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1.15, -3.78, 1, },
 						},
 					},
 					name = "RootNode",
@@ -89,13 +89,13 @@ return {
 							animations = { 
 								green = { 
 									params = { 
-										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/ks_signale/switch_back_ks_optik.ani",
+										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/off.ani",
 									},
 									type = "FILE_REF",
 								},
 								red = { 
 									params = { 
-										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/ks_signale/switch_forward_ks_optik.ani",
+										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -109,13 +109,13 @@ return {
 							animations = { 
 								green = { 
 									params = { 
-										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/ks_signale/switch_back_ks_optik.ani",
+										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/off.ani",
 									},
 									type = "FILE_REF",
 								},
 								red = { 
 									params = { 
-										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/ks_signale/switch_forward_ks_optik.ani",
+										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -129,13 +129,13 @@ return {
 							animations = { 
 								green = { 
 									params = { 
-										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/ks_signale/switch_forward_ks_optik.ani",
+										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/on.ani",
 									},
 									type = "FILE_REF",
 								},
 								red = { 
 									params = { 
-										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/ks_signale/switch_back_ks_optik.ani",
+										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/off.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -149,13 +149,13 @@ return {
 							animations = { 
 								green = { 
 									params = { 
-										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/ks_signale/switch_forward_ks_optik.ani",
+										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/on.ani",
 									},
 									type = "FILE_REF",
 								},
 								red = { 
 									params = { 
-										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/ks_signale/switch_back_ks_optik.ani",
+										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/off.ani",
 									},
 									type = "FILE_REF",
 								},

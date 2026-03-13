@@ -49,13 +49,13 @@ return {
 							animations = { 
 								green = { 
 									params = { 
-										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/ks_signale/switch_back_ks_optik.ani",
+										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/off.ani",
 									},
 									type = "FILE_REF",
 								},
 								red = { 
 									params = { 
-										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/ks_signale/switch_forward_ks_optik.ani",
+										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/on.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -69,13 +69,13 @@ return {
 							animations = { 
 								green = { 
 									params = { 
-										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/ks_signale/switch_forward_ks_optik.ani",
+										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/on.ani",
 									},
 									type = "FILE_REF",
 								},
 								red = { 
 									params = { 
-										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/ks_signale/switch_back_ks_optik.ani",
+										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/off.ani",
 									},
 									type = "FILE_REF",
 								},
@@ -99,7 +99,7 @@ return {
 							materials = { "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/mat/ks_signal_misc.mtl", "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/mat/ks_zsa_scheibe.mtl", },
 							mesh = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/msh/ks_zsa.msh",
 							name = "ks_zsa_1",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.100000001490116119384765625, 0.0500000007450580596923828125, 0.4699999988079071044921875, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.1, 0.0500000007450580596923828125, 0.4699999988079071044921875, 1, },
 						},
 					},
 					name = "RootNode",
