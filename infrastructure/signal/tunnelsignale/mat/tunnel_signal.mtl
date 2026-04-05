@@ -1,44 +1,44 @@
 function data()
-return {
+return { 
 		__version = "",
 		order = 0,
-		params = {
-			light_receiver = {
+		params = { 
+			light_receiver = { 
 				fragmentProperties = {
-					{
+					{ 
 						isLegacyMaterial = false,
 						lightMask = 2,
 					},
 				},
 			},
-			map_albedo = {
-				fragmentSamplers = {
-					albedoTex = {
+			map_albedo = { 
+				fragmentSamplers = { 
+					albedoTex = { 
 						fileName = "tex/tunnel_albedo.dds",
 						type = "TWOD",
 					},
 				},
 			},
-			map_metal_gloss_ao = {
-				fragmentSamplers = {
-					metalGlossAoTex = {
+			map_metal_gloss_ao = { 
+				fragmentSamplers = { 
+					metalGlossAoTex = { 
 						fileName = "tex/tunnel_metal_gloss_ao.dds",
 						type = "TWOD",
 					},
 				},
 			},
-			map_normal = {
-				fragmentSamplers = {
-					normalTex = {
+			map_normal = { 
+				fragmentSamplers = { 
+					normalTex = { 
 						fileName = "tex/tunnel_normal.dds",
 						redGreen = true,
 						type = "TWOD",
 					},
 				},
 			},
-			texcoord_scale = {
+			texcoord_scale = { 
 				fragmentProperties = {
-					{
+					{ 
 						texCoordScale = 1,
 					},
 				},
