@@ -128,6 +128,9 @@ return {
 					pollution = { 0, -1, },
 				},
 				name = _("Ks-Tsig Ks1 links"),
+				description = _("INFRA_SIGNAL_PATH_C_DESCRIPTION"),
+				icon = "icons/ks_tunnel_ks1_links.tga",
+				previewIcon = "",
 			},
 			menuCategory = {
 				categories = {

@@ -188,6 +188,9 @@ return {
 					pollution = { 0, -1, },
 				},
 				name = _("hv-Tsig vr0/vr2 links "),
+				description = _("INFRA_SIGNAL_PATH_C_DESCRIPTION"),
+				icon = "icons/hv_tunnel_vsig_vr0_vr2_links.tga",
+				previewIcon = "",
 			},
 			menuCategory = {
 				categories = {

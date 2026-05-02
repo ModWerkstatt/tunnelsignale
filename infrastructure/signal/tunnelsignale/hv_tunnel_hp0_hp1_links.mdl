@@ -172,6 +172,9 @@ return {
 					pollution = { 0, -1, },
 				},
 				name = _("hv-Tsig hp0/hp1 links "),
+				description = _("INFRA_SIGNAL_PATH_C_DESCRIPTION"),
+				icon = "icons/hv_tunnel_hp0_hp1_links.tga",
+				previewIcon = "",
 			},
 			menuCategory = {
 				categories = {

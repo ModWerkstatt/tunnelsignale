@@ -106,6 +106,9 @@ return {
 					pollution = { 0, -1, },
 				},
 				name = _("Ks-Tvsig Ks2"),
+				description = _("INFRA_SIGNAL_PATH_C_DESCRIPTION"),
+				icon = "icons/ks_tunnel_ks2_links.tga",
+				previewIcon = "",
 			},
 			menuCategory = {
 				categories = {
