@@ -19,7 +19,7 @@ return {
 							materials = { "mat/tunnel_signal.mtl", },
 							mesh = "msh/tunnel_signal_lod0.msh",
 							name = "tunnel_signal_lod0_1",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.039999999105930328369140625, 0, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.04, 0, 1, },
 						},
 						{ 
 							materials = { "mat/tunnel_signal.mtl", },
@@ -63,7 +63,7 @@ return {
 							materials = { "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/mat/licht.mtl", },
 							mesh = "msh/tunnel_licht_rot_lod0.msh",
 							name = "tunnel_licht_rot_lod0_1",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.01400000043213367462158203125, 0.0599999986588954925537109375, 0.0240000002086162567138671875, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.01400000043213367462158203125, -0.04, 0.0240000002086162567138671875, 1, },
 						},
 						{ 
 							animations = { 
@@ -102,12 +102,12 @@ return {
 				categories = { "Ks_Tunnelsignal", },
 			},
 			cost = { 
-				price = 1500,
+				price = 45000,
 			},
 			description = {
 				attributes = { 
 					cost = { 45000, -1, },
-					maintenanceCost = { 7500, -1, },
+					maintenanceCost = { 3000, -1, },
 					noise = { 0, -1, },
 					pollution = { 0, -1, },
 				},

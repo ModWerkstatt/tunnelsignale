@@ -19,7 +19,7 @@ return {
 							materials = { "mat/tunnel_signal.mtl", },
 							mesh = "msh/tunnel_signal_lod0.msh",
 							name = "tunnel_signal_lod0_1",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.039999999105930328369140625, 0, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.04, 0, 1, },
 						},
 						{ 
 							materials = { "mat/tunnel_signal.mtl", },
@@ -106,12 +106,12 @@ return {
 				categories = { "Ks_Tunnelvorsignal", },
 			},
 			cost = { 
-				price = 1500,
+				price = 45000,
 			},
 			description = {
 				attributes = { 
 					cost = { 45000, -1, },
-					maintenanceCost = { 7500, -1, },
+					maintenanceCost = { 3000, -1, },
 					noise = { 0, -1, },
 					pollution = { 0, -1, },
 				},

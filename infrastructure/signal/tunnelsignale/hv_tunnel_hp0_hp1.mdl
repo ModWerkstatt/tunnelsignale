@@ -93,7 +93,7 @@ return {
 							materials = { "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/mat/licht.mtl", },
 							mesh = "msh/licht_hv_rot_lod0.msh",
 							name = "licht_rot_1",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.039999999105930328369140625, 0.2199999988079071044921875, 0.643999993801116943359375, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.04, 0.22, 0.644, 1, },
 						},
 						{ 
 							animations = { 
@@ -113,7 +113,7 @@ return {
 							materials = { "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/mat/licht.mtl", },
 							mesh = "msh/licht_hv_rot_lod0.msh",
 							name = "licht_rot_2",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.039999999105930328369140625, -0.18199999630451202392578125, 0.643999993801116943359375, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.04, -0.182, 0.644, 1, },
 						},
 						{ 
 							animations = { 
@@ -133,14 +133,14 @@ return {
 							materials = { "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/mat/licht.mtl", },
 							mesh = "msh/licht_hv_gruen_lod0.msh",
 							name = "licht_gruen_1",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.039999999105930328369140625, 0.2199999988079071044921875, 0.324999988079071044921875, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.04, 0.22, 0.324999988079071044921875, 1, },
 						},
 					},
 					name = "RootNode",
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -2.099999904632568359375, 3.7999999523162841796875, 1, },
 				},
 				visibleFrom = 0,
-				visibleTo = 200,
+				visibleTo = 300,
 			},
 		},
 		metadata = { 
@@ -152,12 +152,12 @@ return {
 				categories = { "hv_Tunnelsignal", },
 			},
 			cost = { 
-				price = 1500,
+				price = 45000,
 			},
 			description = { 
 				attributes = { 
 					cost = { 45000, -1, },
-					maintenanceCost = { 7500, -1, },
+					maintenanceCost = { 3000, -1, },
 					noise = { 0, -1, },
 					pollution = { 0, -1, },
 				},
