@@ -12,9 +12,9 @@ return {
 				pollution = { 0, -1, },
 			},
 			description = _("Hv_Tunnelsignale_desc"),
-			icon = "icons/hv_tunnelsignale_icon_small.tga",
+			icon = "icons/tunnelsignale_icon_small.tga",
 			name = _("Hv_Tunnelsignale_menu"),
-			previewIcon = "icons/hv_tunnelsignale_preview.tga",
+			previewIcon = "icons/tunnelsignale_preview.tga",
 		},
 		menuCategory = {
 			categories = {
