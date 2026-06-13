@@ -1,30 +1,30 @@
 function data()
-return { 
-		boundingInfo = { 
+return {
+		boundingInfo = {
 			bbMax = { 0.800000011920928955078125, 4, 7.5, },
 			bbMin = { -1.10000002384185791015625, -4, -1, },
 		},
-		collider = { 
-			params = { 
+		collider = {
+			params = {
 				halfExtents = { 0.9500000476837158203125, 4, 4.25, },
 			},
 			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.1500000059604644775390625, 0, 3.0499999523162841796875, 1, },
 			type = "BOX",
 		},
 		lods = {
-			{ 
-				node = { 
+			{
+				node = {
 					children = {
-						{ 
-							animations = { 
-								green = { 
-									params = { 
+						{
+							animations = {
+								green = {
+									params = {
 										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/off.ani",
 									},
 									type = "FILE_REF",
 								},
-								red = { 
-									params = { 
+								red = {
+									params = {
 										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/on.ani",
 									},
 									type = "FILE_REF",
@@ -35,16 +35,16 @@ return {
 							name = "licht_rot_1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.04, 0.22, 0.644999980926513671875, 1, },
 						},
-						{ 
-							animations = { 
-								green = { 
-									params = { 
+						{
+							animations = {
+								green = {
+									params = {
 										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/off.ani",
 									},
 									type = "FILE_REF",
 								},
-								red = { 
-									params = { 
+								red = {
+									params = {
 										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/on.ani",
 									},
 									type = "FILE_REF",
@@ -55,16 +55,16 @@ return {
 							name = "licht_rot_2",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.04, -0.182, 0.644999980926513671875, 1, },
 						},
-						{ 
-							animations = { 
-								green = { 
-									params = { 
+						{
+							animations = {
+								green = {
+									params = {
 										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/on.ani",
 									},
 									type = "FILE_REF",
 								},
-								red = { 
-									params = { 
+								red = {
+									params = {
 										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/off.ani",
 									},
 									type = "FILE_REF",
@@ -75,16 +75,16 @@ return {
 							name = "licht_gruen_1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.04, 0.22, 0.324999988079071044921875, 1, },
 						},
-						{ 
-							animations = { 
-								green = { 
-									params = { 
+						{
+							animations = {
+								green = {
+									params = {
 										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/on.ani",
 									},
 									type = "FILE_REF",
 								},
-								red = { 
-									params = { 
+								red = {
+									params = {
 										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/off.ani",
 									},
 									type = "FILE_REF",
@@ -97,16 +97,16 @@ return {
 						},
 					},
 					name = "RootNode",
-					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -2.099999904632568359375, 3.7999999523162841796875, 1, },
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 3.7999999523162841796875, 1, },
 				},
 				visibleFrom = 0,
 				visibleTo = 300,
 			},
 		},
 		metadata = {
-			lightSourceList = { 
+			lightSourceList = {
 				lights = {
-					{ 
+					{
 						angleMax = 30,
 						color = { 1.70999872684478759765625, 0, 0, },
 						fadeOutStart = 700,
@@ -124,7 +124,7 @@ return {
 						visibleFrom = -1,
 						visibleTo = 800,
 					},
-					{ 
+					{
 						angleMax = 30,
 						color = { 1, 0, 0, },
 						fadeOutStart = 700,
@@ -142,7 +142,7 @@ return {
 						visibleFrom = -1,
 						visibleTo = 800,
 					},
-					{ 
+					{
 						angleMax = 30,
 						color = { 0, 0.474509775638580322265625, 0, },
 						fadeOutStart = 700,
@@ -160,7 +160,7 @@ return {
 						visibleFrom = -1,
 						visibleTo = 800,
 					},
-					{ 
+					{
 						angleMax = 30,
 						color = { 0.905882358551025390625, 0.4944311082363128662109375, 0.163414061069488525390625, },
 						fadeOutStart = 700,

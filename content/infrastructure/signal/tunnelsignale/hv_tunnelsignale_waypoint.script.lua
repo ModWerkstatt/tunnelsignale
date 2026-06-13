@@ -39,7 +39,7 @@ return {
 		local result = {}
 		result.signal = {
 			soundevent = "",
-			type = "PATH_SIGNAL",
+			type = "WAYPOINT",
 		}
 
         local edgeModels = {

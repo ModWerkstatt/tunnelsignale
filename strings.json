@@ -2,7 +2,10 @@
 	"en": {
 
         "Ks-Tunnelsignalsystem": "Ks tunnel signal system",
-        "Hv-Tunnelsignalsystem": "Hv tunnel signal system",
+        "Hv_Tunnelsignale_name": "Hv tunnel signal system",
+        "Hv_Tunnelsignale_desc": "Hv tunnel signal system",
+        "Hv_Tunnelsignale_waypoint_name": "Hv tunnel signal system as waypoints",
+        "Hv_Tunnelsignale_waypoint_desc": "Hv tunnel signal system",
         "Side": "Side",
         "left": "left",
         "right": "right",
@@ -42,11 +45,14 @@
 	"de": {
 
         "Ks-Tunnelsignalsystem": "Ks-Tunnelsignalsystem",
-        "Hv-Tunnelsignalsystem": "Hv-Tunnelsignalsystem",
+        "Hv_Tunnelsignale_name": "Hv-Tunnelsignalsystem",
+        "Hv_Tunnelsignale_desc": "Hv-Tunnelsignalsystem",
+        "Hv_Tunnelsignale_waypoint_name": "Hv-Tunnelsignalsystem als Wegpunkte",
+        "Hv_Tunnelsignale_waypoint_desc": "Hv-Tunnelsignalsystem als Wegpunkte",
         "Side": "Seite",
         "left": "links",
         "right": "rechts",
-        "Hauptsignal": "Hauptsignal",
+        "Main_signal": "Hauptsignal",
         "Hp0": "Hp 0",
         "Hp1": "Hp 1",
         "Hp2": "Hp 2",        

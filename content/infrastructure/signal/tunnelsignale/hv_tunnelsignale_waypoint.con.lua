@@ -11,10 +11,10 @@ return {
 				noise = { 0, -1, },
 				pollution = { 0, -1, },
 			},
-			description = _("Hv_Tunnelsignale_desc"),
-			icon = "icons/tunnelsignale_icon_small.tga",
-			name = _("Hv_Tunnelsignale_menu"),
-			previewIcon = "icons/tunnelsignale_preview.tga",
+			description = _("Hv_Tunnelsignale_waypoint_desc"),
+			icon = "icons/tunnelsignale_waypoint_icon_small.tga",
+			name = _("Hv_Tunnelsignale_waypoint_menu"),
+			previewIcon = "icons/tunnelsignale_waypoint_preview.tga",
 		},
 		menuCategory = {
 			categories = {
