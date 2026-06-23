@@ -73,7 +73,7 @@ return {
 			},
 			{
 				key = "mw_side",
-				name = _("Side"),
+				name = _("TrackPos"),
 				values = { _("left"), _("right") },
 				defaultIndex = 2,
 				yearFrom = 0,
@@ -87,6 +87,13 @@ return {
 				defaultIndex = 2,
 				yearFrom = 0,
 				yearTo = 0,
+                checkEnabledScript = {
+                    fileName = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/script/oneway_construction.script@checkEnabledFn",
+                    params = {
+                          key = "mw_waypoint",
+                          threshold = 1,
+                    },
+                },
 			},
             {
 				key = "mw_offset",
