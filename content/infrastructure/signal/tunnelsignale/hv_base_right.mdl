@@ -1,79 +1,79 @@
 function data()
-return { 
-		boundingInfo = { 
+return {
+		boundingInfo = {
 			bbMax = { 0.800000011920928955078125, 4, 7.5, },
 			bbMin = { -1.10000002384185791015625, -4, -1, },
 		},
-		collider = { 
-			params = { 
+		collider = {
+			params = {
 				halfExtents = { 0.9500000476837158203125, 4, 4.25, },
 			},
 			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.1500000059604644775390625, 0, 3.0499999523162841796875, 1, },
 			type = "BOX",
 		},
 		lods = {
-			{ 
-				node = { 
+			{
+				node = {
 					children = {
-						{ 
+						{
 							materials = { "mat/tunnel_signal.mtl", },
 							mesh = "msh/hv_licht_lod0.msh",
 							name = "hv_licht_lod0_1",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.100000001490116119384765625, 0.23000000417232513427734375, 0.63999998569488525390625, 1, },
 						},
-						{ 
+						{
 							materials = { "mat/tunnel_signal.mtl", },
 							mesh = "msh/hv_licht_lod0.msh",
 							name = "hv_licht_lod0_2",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.100000001490116119384765625, 0.23000000417232513427734375, 0.319999992847442626953125, 1, },
 						},
-						{ 
+						{
 							materials = { "mat/tunnel_signal.mtl", },
 							mesh = "msh/hv_licht_lod0.msh",
 							name = "hv_licht_lod0_3",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.100000001490116119384765625, 0.23000000417232513427734375, 0, 1, },
 						},
-						{ 
+						{
 							materials = { "mat/tunnel_signal.mtl", },
 							mesh = "msh/hv_licht_lod0.msh",
 							name = "hv_licht_lod0_4",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.100000001490116119384765625, -0.17000000178813934326171875, 0.63999998569488525390625, 1, },
 						},
-						{ 
+						{
 							materials = { "mat/tunnel_signal.mtl", },
 							mesh = "msh/hv_licht_lod0.msh",
 							name = "hv_licht_lod0_5",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.100000001490116119384765625, -0.17000000178813934326171875, 0.319999992847442626953125, 1, },
 						},
-						{ 
+						{
 							materials = { "mat/tunnel_signal.mtl", },
 							mesh = "msh/hv_display_lod0.msh",
 							name = "hv_display_lod0_6",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.100000001490116119384765625, -0.17000000178813934326171875, 0, 1, },
 						},
-						{ 
+						{
 							materials = { "mat/tunnel_signal.mtl", },
 							mesh = "msh/tunnel_basis_hv_lod0.msh",
 							name = "tunnel_basis_hv_lod0_7",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.100000001490116119384765625, 0.0199999995529651641845703125, 0.25, 1, },
 						},
-						{ 
+						{
 							materials = { "mat/tunnel_signal.mtl", },
 							mesh = "msh/tunnel_halter_lod0.msh",
 							name = "tunnel_halter_lod0_8",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.02999999932944774627685546875, 0, 0.100000001490116119384765625, 1, },
 						},
-						{ 
+						{
 							materials = { "mat/tunnel_signal.mtl", },
 							mesh = "msh/tunnel_mastschild_lod0.msh",
 							name = "tunnel_mastschild_lod0_9",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.319999992847442626953125, 0.4799999892711639404296875, 1, },
 						},
-						{ 
+						{
 							materials = { "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/mat/ks_signal_misc.mtl", },
-							mesh = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/msh/ks_pzb_1000.msh",
-							name = "ks_pzb_1000_10",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1.14999997615814208984375, -3.7799999713897705078125, 1, },
+							mesh = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/msh/ks_pzb_1000_lod0.msh",
+							name = "pzb_magnet",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1.15, -3.77, 1, },
 						},
 					},
 					name = "RootNode",
