@@ -11,7 +11,7 @@ return {
         local signalType = params.mw_waypoint == 1 and "WAYPOINT" or "PATH_SIGNAL"
 
         -- base
-        local offset = params.mw_offset * -1
+        local offset = (params and params.mw_offset) and (params.mw_offset * -1) or 0
         local mainBase = "hv_base_" .. sideSuffix .. ".mdl"
         local preBase = "hv_presignal_base_" .. sideSuffix .. ".mdl"
         -- main signal
@@ -52,7 +52,7 @@ return {
             },
         }
         -- if presignal is requested
-        if params.mw_pre > 1 then
+        if not params.mw_pre or params.mw_pre > 1 then
 		    table.insert(edgeModels, {
                     edgeOffset = offset,
                     model = {
