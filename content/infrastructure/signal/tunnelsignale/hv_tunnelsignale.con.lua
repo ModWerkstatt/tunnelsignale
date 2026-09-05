@@ -42,15 +42,16 @@ return {
 				depotType = "RAIL",
 			}
 		},
-		isEdgeObject = true,
+		edgeObject = {
+			snapToTrack = true,
+		},
 		params = {
             {
 				key = "mw_main",
 				name = _("Main_signal"),
 				values = { _("Hp0"), _("Hp1"), _("Hp2"), },
 				defaultIndex = 2,
-				yearFrom = 0,
-				yearTo = 0,
+                displayMode = "Horizontal",
                 postConstructionModifiable = true,
 			},
             {
@@ -58,8 +59,7 @@ return {
 				name = _("Pre_signal"),
 				values = { _("without"), _("Vr0"), _("Vr1"), _("Vr2"), },
 				defaultIndex = 1,
-				yearFrom = 0,
-				yearTo = 0,
+                displayMode = "Horizontal",
                 postConstructionModifiable = true,
 			},
 			{
@@ -67,26 +67,25 @@ return {
 				name = _("TrackPos"),
 				values = { _("left"), _("right") },
 				defaultIndex = 2,
-				yearFrom = 0,
-				yearTo = 0,
+                displayMode = "Horizontal",
                 postConstructionModifiable = true,
+                group = "generalParams",
 			},
 			{
 				key = "mw_waypoint",
 				name = _("Waypoint"),
 				values = { _("Yes"), _("No") },
 				defaultIndex = 2,
-				yearFrom = 0,
-				yearTo = 0,
+                displayMode = "Horizontal",
                 postConstructionModifiable = true,
+                group = "generalParams",
 			},
 			{
 				key = "mw_oneway",
 				name = _("One-Way"),
 				values = { _("Yes"), _("No") },
 				defaultIndex = 2,
-				yearFrom = 0,
-				yearTo = 0,
+                displayMode = "Horizontal",
                 checkEnabledScript = {
                     fileName = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/script/oneway_construction.script@checkEnabledFn",
                     params = {
@@ -94,6 +93,7 @@ return {
                           threshold = 1,
                     },
                 },
+                group = "generalParams",
 			},
             {
 				key = "mw_offset",
@@ -101,9 +101,8 @@ return {
 				uiType = "Slider",
                 values = { _("0m"), _("1m"), _("2m"), _("3m"), _("4m"), _("5m"), _("6m"), _("7m"), _("8m"), _("9m"), _("10m"), _("11m"), _("12m"), _("13m"), _("14m"), _("15m"), _("16m"), _("17m"), _("18m"), _("19m"), _("20m"), },
 				defaultIndex = 9,
-				yearFrom = 0,
-				yearTo = 0,
                 postConstructionModifiable = true,
+                group = "generalParams",
 			},
 		},
 	}
