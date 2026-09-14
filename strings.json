@@ -3,7 +3,7 @@
 
         "Ks-Tunnelsignalsystem": "Ks tunnel signal system",
         "Hv_Tunnelsignale_name": "Hv tunnel signal system",
-        "Hv_Tunnelsignale_desc": "Hv tunnel signal system",
+        "Hv_Tunnelsignale_desc": "Hv69 signal system for the tunnel, with or without distant signal.",
         "TrackPos": "Position on track:",
         "left": "left",
         "right": "right",
@@ -44,7 +44,7 @@
 
         "Ks-Tunnelsignalsystem": "Ks-Tunnelsignalsystem",
         "Hv_Tunnelsignale_name": "Hv-Tunnelsignalsystem",
-        "Hv_Tunnelsignale_desc": "Hv-Tunnelsignalsystem",
+        "Hv_Tunnelsignale_desc": "Signalsystem der Hv69-Signale für den Tunnel, mit oder ohne Vorsignal.",
         "TrackPos": "Position am Gleis:",
         "left": "links",
         "right": "rechts",

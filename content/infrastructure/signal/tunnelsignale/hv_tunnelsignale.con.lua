@@ -11,9 +11,9 @@ return {
 				noise = { 0, -1, },
 				pollution = { 0, -1, },
 			},
+			name = _("Hv_Tunnelsignale_name"),
 			description = _("Hv_Tunnelsignale_desc"),
-			icon = "icons/tunnelsignale_icon_small.tga",
-			name = _("Hv_Tunnelsignale_menu"),
+			icon = "icons/tunnelsignale_icon_small@2x.tga",
 			previewIcon = "icons/tunnelsignale_preview.tga",
 		},
 		menuCategory = {
