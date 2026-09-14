@@ -19,8 +19,7 @@ return {
 		menuCategory = {
 			categories = {
 				{
-					category = "rail_tools",
-					filterCategories = { },
+					category = "rail_signals",
 					order = 3001,
 				},
 			},
