@@ -88,7 +88,7 @@ return {
                 checkEnabledScript = {
                     fileName = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/script/oneway_construction.script@checkEnabledFn",
                     params = {
-                          key = "mw_waypoint",
+                          key = "mw_tunnel_waypoint",
                           threshold = 1,
                     },
                 },
