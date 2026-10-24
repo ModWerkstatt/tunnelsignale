@@ -1,14 +1,14 @@
 function data()
 return { 
 		boundingInfo = { 
-			bbMax = { 0.800000011920928955078125, 4, 7.5, },
-			bbMin = { -1.10000002384185791015625, -4, -1, },
+			bbMax = { -0.04, 2.72, 5.435, },
+			bbMin = { -5.04, -2.682, 0.115, },
 		},
 		collider = { 
 			params = { 
-				halfExtents = { 0.9500000476837158203125, 4, 4.25, },
+				halfExtents = { 0, 0.28261, 0.24161, },
 			},
-			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.1500000059604644775390625, 0, 3.0499999523162841796875, 1, },
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.0406398, 0.0190001, 2.775, 1, },
 			type = "BOX",
 		},
 		lods = {
@@ -33,7 +33,7 @@ return {
 							materials = { "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/mat/licht.mtl", },
 							mesh = "msh/licht_hv_gelb_lod0.msh",
 							name = "licht_orange_1",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.04, -0.182, -0.8650000095367431640625, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.04, -0.182, -0.865, 1, },
 						},
 						{ 
 							animations = { 
@@ -53,22 +53,26 @@ return {
 							materials = { "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/mat/licht.mtl", },
 							mesh = "msh/licht_hv_gelb_lod0.msh",
 							name = "licht_orange_2",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.04, 0.22, -1.184999942779541015625, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.04, 0.22, -1.185, 1, },
 						},
 					},
 					name = "RootNode",
-					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 3.7999999523162841796875, 1, },
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 3.8, 1, },
 				},
 				visibleFrom = 0,
 				visibleTo = 300,
 			},
 		},
-		metadata = {
+		metadata = { 
+			extent = { 
+				bbMax = { -0.0406398, 0.30161, 3.01661, },
+				bbMin = { -0.0406398, -0.263609, 2.53339, },
+			},
 			lightSourceList = { 
 				lights = {
 					{ 
 						angleMax = 30,
-						color = { 0.905882358551025390625, 0.4944311082363128662109375, 0.163414061069488525390625, },
+						color = { 0.905882, 0.494431, 0.163414, },
 						fadeOutStart = 700,
 						fromTime = 0,
 						invertMask = true,
@@ -86,7 +90,7 @@ return {
 					},
 					{ 
 						angleMax = 30,
-						color = { 0.905882358551025390625, 0.4944311082363128662109375, 0.163414061069488525390625, },
+						color = { 0.905882, 0.494431, 0.163414, },
 						fadeOutStart = 700,
 						fromTime = 0,
 						invertMask = true,
@@ -104,11 +108,11 @@ return {
 					},
 				},
 			},
-			menuCategory = {
+			menuCategory = { 
 				categories = {
-					{
+					{ 
 						category = "rail_tools",
-						filterCategories = {"tunnelsignale"},
+						filterCategories = { "tunnelsignale", },
 						order = 1000,
 					},
 				},
@@ -117,20 +121,20 @@ return {
 				soundevent = "",
 				type = "WAYPOINT",
 			},
-			tunnelmenuCategory = {
-				categories = {
-					{
-						category = "rail_tools",
-						filterCategories = {"tunnelsignale"},
-						order = 1000,
-					},
-				},
-			},
 			signal_filter = { 
 				hv = true,
 				ks = false,
 				zs2Zs2v = false,
 				zs3Zs3v = false,
+			},
+			tunnelmenuCategory = { 
+				categories = {
+					{ 
+						category = "rail_tools",
+						filterCategories = { "tunnelsignale", },
+						order = 1000,
+					},
+				},
 			},
 		},
 		version = 2,

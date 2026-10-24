@@ -1,0 +1,62 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { -0.0792678, 2.56, 6.454, },
+			bbMin = { -5.08, -2.44, 1.454, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 0, 0.0368257, 0.0368257, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.0792678, 0.0599999, 3.95385, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/mat/licht.mtl", },
+							mesh = "msh/tunnel_licht_rot_lod0.msh",
+							name = "licht_rot",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.08, 0.06, 0.014, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 3.8, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 300,
+			},
+		},
+		metadata = { 
+			extent = { 
+				bbMax = { -0.0792678, 0.0968256, 3.99068, },
+				bbMin = { -0.0792678, 0.0231741, 3.91703, },
+			},
+			lightSourceList = { 
+				lights = {
+					{ 
+						angleMax = 30,
+						color = { 1, 0, 0, },
+						fadeOutStart = 700,
+						fromTime = 0,
+						invertMask = true,
+						lightId = "",
+						mask = 0,
+						meshId = "licht_rot",
+						mode = "LIGHT",
+						radius = 5,
+						strength = 3,
+						toTime = 24,
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0.14, 1, },
+						type = "SPOT",
+						visibleFrom = -1,
+						visibleTo = 800,
+					},
+				},
+			},
+		},
+		version = 2,
+	}
+end

@@ -1,0 +1,40 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 0.0149062, -0.228751, 4.06461, },
+			bbMin = { -0.100554, -0.37031, 3.21292, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 0.0577302, 0.0707797, 0.425849, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.0428241, -0.29953, 3.63877, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/tunnel_signal.mtl", },
+							mesh = "msh/tunnel_mastschild_lod0.msh",
+							name = "tunnel_mastschild_lod0_3",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 3.8, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 150,
+			},
+		},
+		metadata = { 
+			extent = { 
+				bbMax = { 0.0149062, -0.228751, 4.06461, },
+				bbMin = { -0.100554, -0.37031, 3.21292, },
+			},
+		},
+		version = 2,
+	}
+end

@@ -2,7 +2,7 @@ function data()
 return {
 		availability = {
 			yearFrom = 1978,
-			yearTo = 1998,
+			yearTo = 0,
 		},
 		description = {
 			attributes = {
@@ -46,20 +46,74 @@ return {
 		},
 		params = {
             {
-				key = "mw_tunnel_main",
+			    key = "mw_tunnel_type",
+			    name = _("Type"),
+			    values = { _("Hv"), _("Ks"), },
+			    defaultIndex = 1,
+			    tooltip = _("tooltip_type"),
+                uiType = "Button",
+				yearFrom = 1998,
+                displayMode = "Horizontal",
+                postConstructionModifiable = true,
+		    },
+            {
+				key = "mw_tunnel_hv_main",
 				name = _("Main_signal"),
 				values = { _("Hp0"), _("Hp1"), _("Hp2"), },
 				defaultIndex = 2,
                 displayMode = "Horizontal",
                 postConstructionModifiable = true,
+                checkEnabledScript = {
+            	    fileName = "script/type_construction.script@checkEnabledFn",
+                    params = {
+                        key = "mw_tunnel_type",
+                        threshold = 1,
+                    },
+                },
 			},
             {
-				key = "mw_tunnel_pre",
+				key = "mw_tunnel_hv_pre",
 				name = _("Pre_signal"),
 				values = { _("without"), _("Vr0"), _("Vr1"), _("Vr2"), },
 				defaultIndex = 1,
                 displayMode = "Horizontal",
                 postConstructionModifiable = true,
+                checkEnabledScript = {
+            	    fileName = "script/type_construction.script@checkEnabledFn",
+                    params = {
+                        key = "mw_tunnel_type",
+                        threshold = 1,
+                    },
+                },
+			},
+            {
+				key = "mw_tunnel_ks_optik",
+				name = _("Main_signal"),
+				values = { _("BkSig"), _("MASig"), _("VSig"), _("VSig Wiederholer"), },
+				defaultIndex = 1,
+                uiType = "ComboBox",
+                postConstructionModifiable = true,
+                checkEnabledScript = {
+            	    fileName = "script/type_construction.script@checkEnabledFn",
+                    params = {
+                        key = "mw_tunnel_type",
+                        threshold = 2,
+                    },
+                },
+			},
+            {
+				key = "mw_tunnel_ks_light",
+				name = _("Main_signal"),
+				values = { _("Hp0"), _("Ks1"), _("Ks1b"), _("Ks2"), },
+				defaultIndex = 2,
+                postConstructionModifiable = true,
+                checkEnabledScript = {
+            	    fileName = "script/type_construction.script@checkEnabledFn",
+                    params = {
+                        key = "mw_tunnel_type",
+                        threshold = 2,
+                    },
+                },
 			},
 			{
 				key = "mw_tunnel_side",
@@ -78,6 +132,13 @@ return {
                 displayMode = "Horizontal",
                 postConstructionModifiable = true,
                 group = "generalParams",
+                checkEnabledScript = {
+            	    fileName = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/script/oneway_construction.script@checkEnabledFn",
+                    params = {
+               	        key = "mw_tunnel_ks_optik",
+                        threshold = 4,
+                    },
+                },
 			},
 			{
 				key = "mw_tunnel_oneway",

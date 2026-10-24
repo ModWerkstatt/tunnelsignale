@@ -1,0 +1,76 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { -0.08, 2.43, 6.13, },
+			bbMin = { -5.08, -2.57, 1.13, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 0, 0.0368257, 0.0368257, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.08, -0.07, 3.63, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							animations = { 
+								green = { 
+									params = { 
+										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/on.ani",
+									},
+									type = "FILE_REF",
+								},
+								red = { 
+									params = { 
+										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/off.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/mat/licht.mtl", },
+							mesh = "msh/tunnel_licht_gelb_lod0.msh",
+							name = "licht_gelb",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.08, -0.07, -0.17, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 3.8, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 300,
+			},
+		},
+		metadata = { 
+			extent = { 
+				bbMax = { -0.08, -0.0331742, 3.66683, },
+				bbMin = { -0.08, -0.106826, 3.59317, },
+			},
+			lightSourceList = { 
+				lights = {
+					{ 
+						angleMax = 30,
+						color = { 0.905882, 0.494431, 0.163414, },
+						fadeOutStart = 700,
+						fromTime = 0,
+						invertMask = true,
+						lightId = "",
+						mask = 0,
+						meshId = "licht_gelb",
+						mode = "LIGHT",
+						radius = 5,
+						strength = 3,
+						toTime = 24,
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						type = "SPOT",
+						visibleFrom = -1,
+						visibleTo = 800,
+					},
+				},
+			},
+		},
+		version = 2,
+	}
+end

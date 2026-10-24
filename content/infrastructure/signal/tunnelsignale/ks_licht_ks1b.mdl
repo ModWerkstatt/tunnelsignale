@@ -1,0 +1,82 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { -0.08, 2.56, 6.3, },
+			bbMin = { -5.08, -2.44, 1.3, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 0, 0.0368257, 0.0368258, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.08, 0.0599999, 3.8, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							animations = { 
+								green = { 
+									params = { 
+										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/blink.ani",
+									},
+									type = "FILE_REF",
+								},
+								green_idle = { 
+									params = { 
+										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/blink.ani",
+									},
+									type = "FILE_REF",
+								},
+								red = { 
+									params = { 
+										id = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/ani/off.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/mat/licht.mtl", },
+							mesh = "msh/tunnel_licht_gruen_lod0.msh",
+							name = "licht_gruen",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.08, 0.06, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 3.8, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 300,
+			},
+		},
+		metadata = { 
+			extent = { 
+				bbMax = { -0.08, 0.0968256, 3.83683, },
+				bbMin = { -0.08, 0.0231741, 3.76317, },
+			},
+			lightSourceList = { 
+				lights = {
+					{ 
+						angleMax = 30,
+						color = { 0, 0.47451, 0, },
+						fadeOutStart = 700,
+						fromTime = 0,
+						invertMask = true,
+						lightId = "",
+						mask = 0,
+						meshId = "licht_gruen",
+						mode = "LIGHT",
+						radius = 5,
+						strength = 3,
+						toTime = 24,
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						type = "SPOT",
+						visibleFrom = -1,
+						visibleTo = 800,
+					},
+				},
+			},
+		},
+		version = 2,
+	}
+end
