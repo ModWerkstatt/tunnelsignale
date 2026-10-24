@@ -11,8 +11,8 @@ return {
 				noise = { 0, -1, },
 				pollution = { 0, -1, },
 			},
-			name = _("Hv_Tunnelsignale_name"),
-			description = _("Hv_Tunnelsignale_desc"),
+			name = _("tunnelsignale_name"),
+			description = _("tunnelsignale_desc"),
 			icon = "icons/tunnelsignale_icon_small@2x.tga",
 			previewIcon = "icons/tunnelsignale_preview.tga",
 		},
@@ -61,6 +61,7 @@ return {
 				name = _("Main_signal"),
 				values = { _("Hp0"), _("Hp1"), _("Hp2"), },
 				defaultIndex = 2,
+			    tooltip = _("tooltip_hv_main"),
                 displayMode = "Horizontal",
                 postConstructionModifiable = true,
                 checkEnabledScript = {
@@ -76,6 +77,7 @@ return {
 				name = _("Pre_signal"),
 				values = { _("without"), _("Vr0"), _("Vr1"), _("Vr2"), },
 				defaultIndex = 1,
+			    tooltip = _("tooltip_hv_pre"),
                 displayMode = "Horizontal",
                 postConstructionModifiable = true,
                 checkEnabledScript = {
@@ -88,9 +90,10 @@ return {
 			},
             {
 				key = "mw_tunnel_ks_optik",
-				name = _("Main_signal"),
+				name = _("Main_optics"),
 				values = { _("BkSig"), _("MASig"), _("VSig"), _("VSig Wiederholer"), },
 				defaultIndex = 1,
+			    tooltip = _("tooltip_ks_optik"),
                 uiType = "ComboBox",
                 postConstructionModifiable = true,
                 checkEnabledScript = {
@@ -103,9 +106,10 @@ return {
 			},
             {
 				key = "mw_tunnel_ks_light",
-				name = _("Main_signal"),
+				name = _("Main_light"),
 				values = { _("Hp0"), _("Ks1"), _("Ks1b"), _("Ks2"), },
 				defaultIndex = 2,
+			    tooltip = _("tooltip_ks_light"),
                 postConstructionModifiable = true,
                 checkEnabledScript = {
             	    fileName = "script/type_construction.script@checkEnabledFn",
@@ -120,6 +124,7 @@ return {
 				name = _("TrackPos"),
 				values = { _("left"), _("right") },
 				defaultIndex = 2,
+                tooltip = _("tooltip_trackpos"),
                 displayMode = "Horizontal",
                 postConstructionModifiable = true,
                 group = "generalParams",
@@ -129,6 +134,7 @@ return {
 				name = _("Waypoint"),
 				values = { _("Yes"), _("No") },
 				defaultIndex = 2,
+                tooltip = _("tooltip_waypoint"),
                 displayMode = "Horizontal",
                 postConstructionModifiable = true,
                 group = "generalParams",
@@ -145,6 +151,7 @@ return {
 				name = _("One-Way"),
 				values = { _("Yes"), _("No") },
 				defaultIndex = 2,
+				tooltip = _("tooltip_oneway"),
                 displayMode = "Horizontal",
                 checkEnabledScript = {
                     fileName = "mw_signalkomponenten::/infrastructure/signal/mw_signalkomponenten/script/oneway_construction.script@checkEnabledFn",
@@ -161,6 +168,7 @@ return {
 				uiType = "Slider",
                 values = { _("0m"), _("1m"), _("2m"), _("3m"), _("4m"), _("5m"), _("6m"), _("7m"), _("8m"), _("9m"), _("10m"), _("11m"), _("12m"), _("13m"), _("14m"), _("15m"), _("16m"), _("17m"), _("18m"), _("19m"), _("20m"), },
 				defaultIndex = 9,
+				tooltip = _("tooltip_offset"),
                 postConstructionModifiable = true,
                 group = "generalParams",
 			},
